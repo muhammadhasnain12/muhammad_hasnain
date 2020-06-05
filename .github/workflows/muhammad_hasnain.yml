@@ -37,4 +37,4 @@ jobs:
       run: npm install -g surge
       
     - name: deploying on surge
-      run: surge ./build http://muhammadhasnain.surge.sh/ --token ${{ secrets.SURGE_TO }}
+      run: surge ./build http://muhammad_hasnain.surge.sh/ --token ${{ secrets.SURGE_TOKEN1 }}
